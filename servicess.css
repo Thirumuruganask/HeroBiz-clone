@@ -1,0 +1,355 @@
+.about {
+  text-align: center;
+}
+.about h1 {
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.about p {
+  font-size: 18px;
+  font-family: math;
+  letter-spacing: 0.5px;
+}
+.section {
+  width: 100%;
+  display: flex;
+  /* position: relative;
+    left: 46px; */
+}
+.sec {
+  height: 400px;
+  width: 500px;
+  text-align: center;
+}
+.section-1 {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  display: flex;
+  border-radius: 10px;
+}
+.section-1 img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.section-1 img:hover {
+  zoom: normal;
+}
+.sec-1 {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  position: relative;
+  left: 40px;
+  bottom: 130px;
+  padding: 10px;
+  opacity: 95.2%;
+  border-radius: 8px;
+}
+.sec-1 i {
+  font-size: 39px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #a4d11a;
+  color: white;
+  position: relative;
+  bottom: 40px;
+  padding: 6px;
+  border: 5px solid white;
+  cursor: pointer;
+  box-shadow: 8px 5px 20px white;
+}
+.sec-1 i:hover {
+  background-color: white;
+  color: #a4d11a;
+  border: 2px solid rgb(24, 221, 221);
+}
+.sec-1 h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 40px;
+  cursor: default;
+}
+.sec-1 h4:hover {
+  color: aqua;
+}
+.sec-1 p {
+  font-family: math;
+  font-size: 16px;
+  padding: 10px;
+  position: relative;
+  bottom: 40px;
+}
+.sec-2 {
+  margin-top: 60px;
+}
+.team-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin: 0px 1.2rem !important;
+}
+.team-box {
+  height: 400px;
+  /* width: 300px; */
+  /* background-color: aliceblue; */
+}
+.team-box img {
+  height: 100%;
+  width: 100%;
+}
+.team-box-1 {
+  height: 100%;
+  width: 100%;
+}
+.team-box-2 {
+  height: 22%;
+}
+.team-box-2 h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+.team-box-2 p {
+  font-family: system-ui;
+  font-size: 16px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.team-box-2 {
+  /* height: 80px; */
+  width: 220px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  bottom: 7rem;
+  /* color: ;
+    transparent: 0; */
+  cursor: pointer;
+  /* box-shadow: 8px 5px 20px lightblue; */
+  border-radius: 3px;
+  padding: 0px 0px 1px 0px;
+  margin: auto;
+}
+.team-box:hover {
+  .icon {
+    display: block;
+  }
+}
+
+.icon {
+  display: flex;
+  margin: auto;
+  position: relative;
+  bottom: 6rem;
+  left: 7rem;
+  display: none;
+}
+.icon i {
+  font-size: 19px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 40px;
+  background-color: #12afe3;
+  padding: 14px 6px 1px 7px;
+}
+
+.contact {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  margin-top: 50px;
+}
+.info {
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  box-shadow: 10px 5px 20px white;
+  border: 2px solid wheat;
+  /* margin: 30px; */
+}
+.address {
+  height: 93%;
+  width: 70%;
+  /* margin: 30px; */
+  border: 2px solid wheat;
+}
+
+.address input {
+  height: 25px;
+  margin: 10px;
+}
+.address textarea {
+  height: 200px;
+  width: 90%;
+  margin: 10px;
+}
+.add {
+  height: 80%;
+  width: 70%;
+  background: white;
+  margin: 30px;
+}
+ul {
+}
+li {
+}
+.add-1 {
+}
+.add-1 i {
+  font-size: 25px;
+  color: lightblue;
+  position: absolute;
+}
+.add-1 h4 {
+  position: relative;
+  left: 40px;
+  top: 0;
+}
+.add-1 p {
+  position: relative;
+  left: 40px;
+}
+.add h4 {
+  font-family: system-ui;
+}
+.add p {
+  font-family: math;
+}
+.botton {
+  text-align: center;
+  width: 121px;
+  background-color: cornflowerblue;
+  padding: 11px;
+  color: white;
+  font-family: system-ui;
+  margin: auto;
+}
+footer {
+  display: flex;
+  background-color: darkgray;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-family: system-ui;
+  color: white;
+  padding: 20px 20px 20px;
+}
+footer h3 {
+  font-size: 26px;
+}
+footer h4 {
+  font-size: 12px;
+  font-weight: 500;
+}
+footer p {
+  font-size: 13px;
+}
+footer ul {
+  padding: 20px;
+}
+footer li {
+  list-style: circle;
+}
+
+.news input {
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+.news-1 button {
+  background-color: blue;
+  color: white;
+  width: 90px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.news span {
+  position: relative;
+  top: 10px;
+}
+
+/* .copy{
+    background-color: darkseagreen;
+    height: 40px;
+    width: 100%;
+} */
+
+.g-map {
+  height: 300px;
+  width: 100%;
+  background-color: bisque;
+  margin-top: 50px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .section {
+    /* flex-flow: wrap;*/
+    flex-wrap: wrap;
+  }
+  .team-info {
+    flex-direction: column;
+    gap: 3rem;
+    margin: auto;
+  }
+  .contact {
+    flex-direction: column;
+    height: auto;
+    gap: 3rem;
+  }
+  .info {
+    width: 93%;
+  }
+  .address {
+    width: 93%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .news input {
+    width: 50%;
+  }
+  .sec {
+    margin-left: 3rem;
+}
+  section {
+    margin-top: 4rem;
+  }
+  .address,
+  .info {
+    margin: auto;
+  }
+  .sec-1 {
+    /*    
+    margin-left: 36px; */
+  }
+  /* .section-1{
+    position: relative;
+    left: 37px;
+} */
+
+  /* .team-box-2:hover , .icon {
+    display: block;
+    
+} */
+  .team-box-2 {
+    /* position: relative;
+    left: 10px;  */
+    margin: auto;
+  }
+  .icon {
+    position: relative;
+    left: 100px;
+    margin: auto;
+  }
+}
