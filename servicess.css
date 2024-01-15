@@ -1,3 +1,6 @@
+.about-section{
+  margin-left: 50px;
+}
 .about {
   text-align: center;
 }
@@ -27,6 +30,7 @@
   width: 300px;
   background-color: blue;
   display: flex;
+  transition: transform 0.3s;
   border-radius: 10px;
 }
 .section-1 img {
@@ -35,8 +39,8 @@
   cursor: pointer;
   border-radius: 10px;
 }
-.section-1 img:hover {
-  zoom: normal;
+.section-1:hover {
+    transform: scale(1.15);
 }
 .sec-1 {
   height: 200px;
@@ -293,6 +297,9 @@ footer li {
   margin-top: 50px;
 }
 @media (min-width: 320px) and (max-width: 480px) {
+ .about-section{
+  margin-left: 0px;
+ }
   .section {
     /* flex-flow: wrap;*/
     flex-wrap: wrap;
