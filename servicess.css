@@ -185,9 +185,12 @@
 }
 .address {
   height: 93%;
-  width: 70%;
+  width: 60%;
+  padding: 18px;
+  margin-left:5px ;
   /* margin: 30px; */
   border: 2px solid wheat;
+  gap: 2px;
 }
 
 .address input {

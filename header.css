@@ -95,6 +95,7 @@ h6{
     top: 80px;
    
 }
+
     
 
 /* .slider:hover{
@@ -189,6 +190,19 @@ h6{
     word-spacing: 2px;
     padding: 15px;
 }
+.slider{
+    width: 100%;
+    position: relative;
+    animation:  float 5s ease-in-out infinite alternate-reverse both;
+  }
+@keyframes float{
+    0% ,100%{
+      transform: translateY(20px);
+     }
+     50% {
+        transform: translateY(-20px);
+      }
+    }      
 @media  (min-width:320px) and (max-width:480px) {
     html,body{
         width: 100%;
